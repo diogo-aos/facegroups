@@ -30,6 +30,8 @@ Currently, this is accomplished with a hammered CLI for basic interaction and Op
 If I were to continue this project, it would be nice to have a web based interface that managed labels and would allow for more complex operations, such as breaking apart clusters.
 
 
-TODOs
+# TODO
+
 [ ] allow user to query for list of photos, e.g. all images with this person, all images with these 2 people together, all images with these person but not this other person, etc. 
+[ ] better UI
 
