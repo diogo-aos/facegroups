@@ -5,7 +5,7 @@
 3. Run `label_clusters.py` to do clustering on all extracted faces. This runs agglomerative clustering on all faces. The number of clusters can be configured in `config.py`.
 4. Run `label_clusters.py` to label clusters of faces. Clusters that don't a have minimum size (default is 2, `config.py`) are not considered.
     - Images from each cluster will be rendered on a OpenCV grid.
-        - If you type 'l', you go back to the terminal to indicate the label for this cluster.
+        - If you type `'l'`, you go back to the terminal to indicate the label for this cluster.
     - This script also allows to export all source images of faces belonging to clusters of specific labels.
         - The script will list all configured labels.
         - The user chooses which labels to export and the destination directory.
